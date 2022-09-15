@@ -6,7 +6,7 @@ body
 	background-attachment: local;
 	background-image: url(bg.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 200%;
 }
 header
 {
