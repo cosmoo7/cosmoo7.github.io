@@ -1,65 +1,69 @@
-html
-{
-	background-image: url(/bg.png);
-	background-repeat: no-repeat;
-	width: 100vw;
-	height: 100vh;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #d6d6d6;
+  background-color: #252424;
 }
-body
-{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color: #d6d6d6;
-	background-color: #00000000;
+header {
+  color: #f5f5f5;
+  text-align: center;
+  background-color: #181818;
+  border: #181818;
+  border-radius: 15px;
 }
-header
-{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color: #f5f5f5;
-	text-align: center;
+body p {
+  text-align: left;
+  color: #aaaaaa;
 }
-#socials-list{
-    display:none;
+a.nav {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 8px;
 }
-#socials:hover ~ #socials-list{
-    display: contents;
+div.social-media {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  background-color: #fff1;
 }
-
-#socials-list:hover{
-    display:contents;
+div.social-media:hover {
+  transition-duration: 400ms;
+  background-color: #fff2;
 }
-#socials-list li
-{
-	padding: 5px;
+div.social-media:hover ul.social-menu {
+  display: inline;
+  transition-duration: 300ms;
 }
-#socials
-{
-	text-decoration: none;
-	color: inherit;
-	font-size: 1.3rem;
-	display: inline;
+ul.social-menu li {
+  display: inline;
+  padding-inline: 4px;
 }
-a #socials
-{
-	text-decoration: none;
-	color: #0fdbff;
-	font-weight: bold;
+ul.social-menu {
+  margin: 0px;
+  display: none;
+  padding: 0px;
+  color: white;
 }
-#cool
-{
-	font-family: cursive;
+a.social {
+  text-decoration: none;
+  color: inherit;
 }
-body p
-{
-	text-align: left;
-	color: #aaaaaa;	
+img.dropdown-icon {
+  padding-inline: 3px;
+  padding-top: 3px;
 }
-a
-{
-	text-decoration: none;
-	color: inherit;
+div.container {
+  width: fit-content;
+  height: fit-content;
+  background-color: #181818;
+  margin: auto;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 40px;
+  text-align: center;
 }
-.soon
-{
-	font-size: 700%;
-	text-align: center;
+a:hover {
+  color: rgb(47, 108, 223);
+  transition-duration: 600ms;
 }
