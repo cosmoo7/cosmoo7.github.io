@@ -10,7 +10,7 @@
     var(--accent-3),
     var(--accent-4)
   );
-  --bg-image: url(/pics/bg-dark.png);
+  --bg-image: url(/pics/bg-dark.jpg);
   --bg: #252424;
   --border: #2f2f2f solid 2px;
   --box-shadow: inset 6px 6px 15px #131313, inset -6px -6px 15px #1a1a1a;
