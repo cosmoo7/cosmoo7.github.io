@@ -10,7 +10,7 @@
     var(--accent-3),
     var(--accent-4)
   );
-  --bg-image: url(/pics/bg-light.png);
+  --bg-image: url(/pics/bg-light.jpg);
   --bg: #e0e0e0;
   --border: #a8a8a8 solid 2px;
   --box-shadow: ;
