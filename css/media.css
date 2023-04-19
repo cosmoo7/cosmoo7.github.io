@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px){
+    .about{background-image: var(--about);}
+    .contact{background-image: var(--contact);}
+    .home{background-image: var(--home);}
+    .main-nav-link, .main-nav-link:is(:hover){
+        background-repeat: no-repeat;
+        color: transparent;
+        display: flex;
+        margin-top: .5rem;
+    }
+    .container{
+        max-width: 1vw;
+    }
+}

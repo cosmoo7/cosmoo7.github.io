@@ -1,0 +1,26 @@
+* {
+  --accent-1: #2762cf;
+  --accent-2: #e71325;
+  --accent-3: #d812ce;
+  --accent-4: #b4f00e;
+  --accent-gradient: linear-gradient(
+    to right,
+    var(--accent-1),
+    var(--accent-2),
+    var(--accent-3),
+    var(--accent-4)
+  );
+  --bg-image: url(/pics/bg-dark.png);
+  --bg: #252424;
+  --border: #2f2f2f solid 2px;
+  --box-shadow: inset 6px 6px 15px #131313, inset -6px -6px 15px #1a1a1a;
+  --button: var(--container);
+  --container: #181818aa;
+  --font: #d6d6d6;
+  --link-active: var(--accent-1);
+  --link: #bbb;
+  --aside: var(--container);
+  --about: url(/icons/dark/info-dark.svg);
+  --home: url(/icons/dark/home-dark.svg);
+  --contact: url(/icons/dark/contact-dark.svg);
+}
