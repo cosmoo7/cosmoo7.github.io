@@ -2,6 +2,7 @@
     .about{background-image: var(--about);}
     .contact{background-image: var(--contact);}
     .home{background-image: var(--home);}
+    .content{background-image: var(--content);}
     .main-nav-link, .main-nav-link:is(:hover){
         background-repeat: no-repeat;
         color: transparent;
